@@ -1,0 +1,43 @@
+
+
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 30px;
+}
+
+
+
+.card {
+  width: 250px;
+  padding: 20px;
+  background: red; 
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: white;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+
+.card.open {
+  background: white; 
+  color: black;      
+}
+
+
+
+.card p {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
